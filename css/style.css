@@ -8,10 +8,129 @@ body{
     font-family: 'Open Sans', sans-serif;
     color: black;
     font-size: 20px;
+    min-width: 1200px;
 }
 
 .clearfix::after{
     content: "";
     display: table;
     clear: both;
+}
+.debug{
+    border: 1px solid black;
+}
+
+
+/* GENERAL CLASS */
+
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+
+.container-90{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.container-80{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.bg-color-skyblue{
+    background-color: #B1CDE3;
+}
+
+/* HEADER */
+
+/* navbar */
+nav{
+    width: 100%; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+    z-index: 1;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+nav .logo, nav ul{
+    display: inline-block;
+}
+nav ul li.list-hover:hover{
+    border-bottom: 2px solid black;
+}
+
+.navsx ul li a, .navdx ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 35px;
+    line-height: 90px;
+}
+.navsx ul li a img{
+    vertical-align: middle;
+}
+
+/* jumbotron */
+
+#jumbotron{
+    margin-top: 70px;
+    padding-top: 80px;
+    padding-left: 70px;
+    padding-right:70px;
+}
+
+.jumbo-title{
+    width: 100%;
+    padding-top: 20px;
+}
+.jumbo-title h1{
+    font-size: 80px;
+}
+
+.jumbo-text{
+    width: 31%;
+    padding-top: 80px;
+    margin-right: 78px;
+}
+.jumbo-text p{
+    font-size: 17px;
+    font-weight: 500;
+    word-spacing: 0.1em;
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.jumbo-img{
+    width: 60%;
+    position: relative;
+    bottom: -80px;
+}
+
+.jumbo-img img{
+    width: 55vw;
+}
+.btn a{
+    padding: 10px 20px;
+    background-color: #0061FF;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.small-text{
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.arrow i{
+    padding-top: 50px;
+    font-size: 50px;
+    font-weight: 800;
 }
