@@ -5,7 +5,7 @@
 }
 
 body{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans';
     color: black;
     font-size: 20px;
     min-width: 1200px;
@@ -35,8 +35,8 @@ body{
     margin: 0 auto;
 }
 
-.container-80{
-    width: 80%;
+.container-75{
+    width: 75%;
     margin: 0 auto;
 }
 
@@ -65,12 +65,16 @@ nav .logo, nav ul{
 }
 nav ul li.list-hover:hover{
     border-bottom: 2px solid black;
+    cursor: pointer;
 }
 
 .navsx ul li a, .navdx ul li a{
     text-decoration: none;
     color: black;
-    padding: 35px;
+    padding-left: 10px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-right: 30px;
     line-height: 90px;
 }
 .navsx ul li a img{
@@ -111,11 +115,16 @@ nav ul li.list-hover:hover{
     width: 60%;
     position: relative;
     bottom: -80px;
+    right: -30px;
 }
 
 .jumbo-img img{
     width: 55vw;
 }
+.btn a:hover{
+    background-color: blue;
+}
+
 .btn a{
     padding: 10px 20px;
     background-color: #0061FF;
@@ -133,4 +142,188 @@ nav ul li.list-hover:hover{
     padding-top: 50px;
     font-size: 50px;
     font-weight: 800;
+}
+
+/* CORPO */
+
+.sez-1{
+    margin-top: 165px;
+    height: 300vh;
+}
+
+/* sezione 1 */
+.sez-1-title-container{
+    width: 100%;
+}
+.sez-1-title{
+    width: 100%;
+    padding: 50px 45px;
+}
+
+.sez-1-title h2{
+    font-size: 46px;
+}
+
+
+.sez-1-check{
+    padding: 25px 45px;
+}
+.sez-1-check p{
+    line-height: 20px;
+}
+.check{
+    width: 18px;
+    height: 18px;
+}
+.checkbox {
+  position: relative;
+  margin-bottom: 22px;
+  cursor: pointer;
+  font-size: 22px;
+}
+.checkbox{
+    margin-left: 20px;
+}
+.checkbox input:hover{
+    cursor: pointer;
+}
+
+.checkbox:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  .checkbox input:checked ~ .checkmark {
+    background-color: #2196F3;
+  }
+  .checkbox .checkmark:after {
+       top: 9px;
+      left: 9px;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: white;
+  }
+
+  .sez-1-card{
+      margin: 38px;
+      width: 28%;
+      border: 1px solid #D5D5D7;
+  }
+
+  .card-title{
+      border-bottom: 1px solid #D5D5D7;
+      text-align: center;
+      padding: 10px;
+  }
+  .card-container{
+      padding: 30px;
+      padding-bottom: 300px;
+  }
+ .card-padding{
+     padding-bottom: 225px;
+ }
+
+.card-container h5{
+    padding-top: 15px;
+}
+
+.card-container h6{
+    font-size: 16px;
+    color: #6A7986;
+    padding-top: 10px;
+}
+.card-container p{
+    padding-top: 55px;
+    font-size: 15px;
+    font-weight: 600;
+    padding-bottom: 35px;
+}
+
+.card-content{
+    display: block;
+    margin-bottom: 30px
+}
+
+.card-btn a{
+    padding: 10px 35px;
+}
+.cards{
+    width: 100%;
+}
+
+.card-link{
+    font-size: 15px;
+    font-weight: 600;
+}
+.card-link a{
+    color: #5696FF;
+}
+
+.card-link a:hover{
+    color: #0061FF;
+}
+.card-link a:active{
+    color: red;
+}
+hr{
+    margin: 50px 0;
+    width: 50px;
+    color: #6A7986;
+}
+
+.card-list h4{
+    font-size:17px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.card-list ul li{
+    list-style-type: none;
+    padding-bottom: 20px;
+}
+.card-list ul li span{
+    font-size: 19px;
+}
+.blue{
+    color: #0061FF;
+}
+
+.sez-1-footer{
+    width: 100%;
+}
+
+.sez-1-footer-container{
+    margin: 35px;
+    border: 1px solid #d5d5d7;
+}
+
+.sez-1-footer-title{
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid #d5d5d7;
+}
+.sez-1-footer-content{
+    padding: 40px;
+}
+
+.sez-1-footer-content-title{
+    width: 50%;
+}
+
+.sez-1-footer-content-btn{
+    width: 40%;
+    text-align: right;
+}
+
+.sez-1-btn a{
+    padding: 10px 85px;
+}
+.sez-1-footer-content-subtitle{
+    width: 100%;
+    padding-top: 25px;
+    text-align: left;
+}
+.sez-1-footer-content-text{
+    width: 100%;
+    padding-top: 25px;
+    text-align: left;
 }
