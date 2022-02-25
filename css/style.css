@@ -457,7 +457,8 @@ hr{
     width: 100%;
     padding-left: 50px;
 }
-.sez-5-center-box-content svg{
+.sez-5-center-box-content img{
+    padding-top: 50px;
     width: 7vw;
 }
 .sez-5-center-box-content-text{
