@@ -167,7 +167,7 @@ nav ul li.list-hover:hover{
     margin-top: 90px;
 }
 .sez-4{
-    margin-top: 165px;
+    margin-top: 100px;
 }
 .sez-5{
     margin-top: 165px;
@@ -400,4 +400,16 @@ hr{
 }
 .sez-3-center-card{
     margin: 0 100px;
+}
+
+/* sezione 4 */
+.sez-4-container{
+    width: 50%;
+}
+.sez-4-title{
+    font-size: 37px;
+}
+.sez-4-link{
+    font-size: 16px;
+    padding: 20px 0;
 }
