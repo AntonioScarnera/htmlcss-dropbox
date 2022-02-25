@@ -413,3 +413,68 @@ hr{
     font-size: 16px;
     padding: 20px 0;
 }
+.sez-4-link a:hover{
+    color: red;
+}
+.sez-4-link a:active{
+    color: red;
+}
+
+/* sezione 5 */
+.sez-5-container{
+    width: 99vw;
+    height: 60vh;
+    min-height: 60vh;
+}
+.sez-5-side-box{
+    background-color: #5696FF;
+    width: 30%;
+    height: 100%;
+}
+.sez-5-logo{
+    width: 50%;
+    height: 50%;
+}
+.sez-5-logo svg{
+    width: 5vw;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+svg{
+    fill: white;
+}
+.sez-5-center-box{
+    width: calc(40% - 1px);
+    height: 100%;
+    background-color: #5696FF;
+}
+.sez-5-center-box-content{
+    padding: 50px;
+}
+.sez-5-center-box-content svg{
+    width: 5vw;
+}
+
+.green{
+    background-color: #A2D39B;
+}
+.red{
+    background-color: #D5001F;
+}
+.luminous-red{
+    background-color: #FF1C1C;
+}
+.dark-red{
+    background-color: #61082B;
+}
+.blue{
+    background-color: #0093CE;
+}
+.dark-blue{
+    background-color: #0D2481;
+}
+.yellow{
+    background-color: #FFD830;
+}
