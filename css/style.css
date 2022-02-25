@@ -3,14 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 body{
     font-family: 'Open Sans';
     color: black;
     font-size: 20px;
     min-width: 1200px;
 }
-
 .clearfix::after{
     content: "";
     display: table;
@@ -29,19 +27,19 @@ body{
 .right{
     float: right;
 }
-
 .container-90{
     width: 90%;
     margin: 0 auto;
 }
-
 .container-75{
     width: 75%;
     margin: 0 auto;
 }
-
 .bg-color-skyblue{
     background-color: #B1CDE3;
+}
+.underline:hover{
+    text-decoration: underline;
 }
 
 /* HEADER */
@@ -49,6 +47,7 @@ body{
 /* navbar */
 nav{
     width: 100%; 
+    min-width: 1200px;
     position: fixed;
     top: 0;
     left: 0;
@@ -59,7 +58,24 @@ nav ul li{
     list-style-type: none;
     display: inline-block;
 }
+.navsx{
+    width: 50%;
 
+}
+.navdx{
+    width: 50%;
+    text-align: right;
+}
+.start-btn a{
+    display: block;
+    padding: 10px 20px;
+    background-color: #0061FF;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+    margin: 22px;
+}
 nav .logo, nav ul{
     display: inline-block;
 }
@@ -67,14 +83,12 @@ nav ul li.list-hover:hover{
     border-bottom: 2px solid black;
     cursor: pointer;
 }
-
 .navsx ul li a, .navdx ul li a{
     text-decoration: none;
     color: black;
-    padding-left: 10px;
     padding-top: 35px;
     padding-bottom: 35px;
-    padding-right: 30px;
+    padding-right: 22px;
     line-height: 90px;
 }
 .navsx ul li a img{
@@ -89,15 +103,14 @@ nav ul li.list-hover:hover{
     padding-left: 70px;
     padding-right:70px;
 }
-
 .jumbo-title{
     width: 100%;
     padding-top: 20px;
 }
 .jumbo-title h1{
     font-size: 80px;
+    padding-right: 125px;
 }
-
 .jumbo-text{
     width: 31%;
     padding-top: 80px;
@@ -110,34 +123,33 @@ nav ul li.list-hover:hover{
     text-align: left;
     margin-bottom: 50px;
 }
-
 .jumbo-img{
     width: 60%;
     position: relative;
     bottom: -80px;
     right: -30px;
 }
-
 .jumbo-img img{
-    width: 55vw;
+    width: 100%;
 }
 .btn a:hover{
     background-color: blue;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.6);
+    cursor: pointer;
 }
-
 .btn a{
+    display: block;
     padding: 10px 20px;
     background-color: #0061FF;
     color: #fff;
     text-decoration: none;
+    text-align: center;
     font-size: 18px;
 }
-
 .small-text{
     font-size: 18px;
     margin-top: 20px;
 }
-
 .arrow i{
     padding-top: 50px;
     font-size: 50px;
@@ -145,11 +157,28 @@ nav ul li.list-hover:hover{
 }
 
 /* CORPO */
-
 .sez-1{
     margin-top: 165px;
-    height: 300vh;
 }
+.sez-2{
+    margin-top: 165px;
+}
+.sez-3{
+    margin-top: 90px;
+}
+.sez-4{
+    margin-top: 165px;
+}
+.sez-5{
+    margin-top: 165px;
+}
+.sez-6{
+    margin-top: 165px;
+}
+.sez-7{
+    margin-top: 165px;
+}
+
 
 /* sezione 1 */
 .sez-1-title-container{
@@ -157,16 +186,13 @@ nav ul li.list-hover:hover{
 }
 .sez-1-title{
     width: 100%;
-    padding: 50px 45px;
+    padding: 50px 0px;
 }
-
 .sez-1-title h2{
     font-size: 46px;
 }
-
-
 .sez-1-check{
-    padding: 25px 45px;
+    padding: 25px 0px;
 }
 .sez-1-check p{
     line-height: 20px;
@@ -181,52 +207,43 @@ nav ul li.list-hover:hover{
   cursor: pointer;
   font-size: 22px;
 }
-.checkbox{
-    margin-left: 20px;
-}
 .checkbox input:hover{
     cursor: pointer;
 }
-
 .checkbox:hover input ~ .checkmark {
     background-color: #ccc;
-  }
-  
-  .checkbox input:checked ~ .checkmark {
+}
+.checkbox input:checked ~ .checkmark {
     background-color: #2196F3;
-  }
-  .checkbox .checkmark:after {
+}
+.checkbox .checkmark:after {
        top: 9px;
       left: 9px;
       width: 8px;
       height: 8px;
       border-radius: 50%;
       background: white;
-  }
-
-  .sez-1-card{
-      margin: 38px;
-      width: 28%;
-      border: 1px solid #D5D5D7;
-  }
-
-  .card-title{
+}
+.sez-1-card{
+        display: block;
+        width: calc((90% / 3) - 40px);
+        border: 1px solid #D5D5D7;
+}
+.sez-1-center-card{
+    margin: 0 120px;
+}
+.card-title{
       border-bottom: 1px solid #D5D5D7;
       text-align: center;
       padding: 10px;
-  }
-  .card-container{
+}
+.card-container{
       padding: 30px;
-      padding-bottom: 300px;
-  }
- .card-padding{
-     padding-bottom: 225px;
- }
-
+      min-height: 1200px;
+}
 .card-container h5{
     padding-top: 15px;
 }
-
 .card-container h6{
     font-size: 16px;
     color: #6A7986;
@@ -238,19 +255,17 @@ nav ul li.list-hover:hover{
     font-weight: 600;
     padding-bottom: 35px;
 }
-
 .card-content{
     display: block;
     margin-bottom: 30px
 }
-
 .card-btn a{
     padding: 10px 35px;
 }
 .cards{
     width: 100%;
+    min-width: 1200px;
 }
-
 .card-link{
     font-size: 15px;
     font-weight: 600;
@@ -258,7 +273,6 @@ nav ul li.list-hover:hover{
 .card-link a{
     color: #5696FF;
 }
-
 .card-link a:hover{
     color: #0061FF;
 }
@@ -270,7 +284,6 @@ hr{
     width: 50px;
     color: #6A7986;
 }
-
 .card-list h4{
     font-size:17px;
     font-weight: 700;
@@ -286,16 +299,14 @@ hr{
 .blue{
     color: #0061FF;
 }
-
 .sez-1-footer{
     width: 100%;
+    min-width: 1200px;
 }
-
 .sez-1-footer-container{
-    margin: 35px;
+    margin-top: 55px;
     border: 1px solid #d5d5d7;
 }
-
 .sez-1-footer-title{
     padding: 15px;
     text-align: center;
@@ -304,16 +315,13 @@ hr{
 .sez-1-footer-content{
     padding: 40px;
 }
-
 .sez-1-footer-content-title{
     width: 50%;
 }
-
 .sez-1-footer-content-btn{
     width: 40%;
     text-align: right;
 }
-
 .sez-1-btn a{
     padding: 10px 85px;
 }
@@ -326,4 +334,70 @@ hr{
     width: 100%;
     padding-top: 25px;
     text-align: left;
+}
+
+/* sezione 2 */
+.sez-2-img{
+    width: 60%;
+}
+.sez-2-img img{
+    width: 100%;
+}
+.sez-2-text{
+    width: 40%;
+    padding-left: 70px;
+    padding-top: 70px;
+}
+.sez-2-text h5{
+    font-size:30px;
+}
+.sez-2-text p{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 16px;
+    line-height: 2em;
+}
+.sez-2-btn a{
+    padding: 10px 25px;
+    border: 1px solid black;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-size: 16px;
+} 
+.sez-2-btn a:hover{
+    background-color: #4b565f;
+    cursor: pointer;
+    color: #fff;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.6);
+}
+
+/* sezione 3 */
+.sez-3-title{
+    padding: 30px 0;
+    font-size: 37px;
+}
+.sez-3-cards{
+    width: 100%;
+    min-width: 1200px;
+    padding-top: 15px;
+}
+.sez-3-card{
+    width: calc((100% / 3) - 70px);
+    padding-bottom: 100px;
+}
+.sez-3-card img{
+    width: 100%;
+}
+.sez-3-card h5{
+    font-size:30px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+.sez-3-card p a{
+    text-decoration: none;
+    color: black;
+}
+.sez-3-center-card{
+    margin: 0 100px;
 }
