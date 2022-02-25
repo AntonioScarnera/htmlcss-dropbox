@@ -436,12 +436,17 @@ hr{
     height: 50%;
 }
 .sez-5-logo svg{
-    width: 5vw;
+    width: 10vw;
     position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+.sez-5-logo svg g path{
     fill: white;
+}
+.sez-5-logo svg g{
+    fill: none;
 }
 
 .sez-5-center-box{
