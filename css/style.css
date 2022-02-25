@@ -441,21 +441,37 @@ hr{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-}
-svg{
     fill: white;
 }
+
 .sez-5-center-box{
     width: calc(40% - 1px);
     height: 100%;
-    background-color: #5696FF;
+    background-color: #F5F5F5;
+    overflow-y: auto;
 }
 .sez-5-center-box-content{
-    padding: 50px;
+    width: 100%;
+    padding-left: 50px;
 }
 .sez-5-center-box-content svg{
-    width: 5vw;
+    width: 7vw;
 }
+.sez-5-center-box-content-text{
+    padding: 0 50px;
+}
+.sez-5-center-box-content-text p{
+    font-size: 19px;
+    font-weight: 600;
+    padding-bottom: 50px;
+}
+.sez-5-center-box-content-text span{
+    font-size: 19px;
+    font-weight: 600;
+}
+
+
+
 
 .green{
     background-color: #A2D39B;
