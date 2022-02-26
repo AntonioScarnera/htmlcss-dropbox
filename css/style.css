@@ -97,6 +97,7 @@ nav ul li.list-hover:hover{
     vertical-align: middle;
 }
 
+
 /* jumbotron */
 
 #jumbotron{
@@ -490,7 +491,7 @@ hr{
     padding-right: 70px;
 }
 .sez-6-btn{
-    padding: 10px 65px;
+    padding: 10px 0px;
     text-decoration: none;
     text-align: center;
     font-size: 16px;
@@ -499,9 +500,13 @@ hr{
 .sez-6-btn a{
     text-decoration: none;
     color: black;
+    padding: 10px 80px;
 }
 .sez-6-btn:hover{
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.6);
+}
+.margin-top-negative{
+    margin-top: -165px;
 }
 
 /* sezione 7 */
@@ -529,7 +534,7 @@ hr{
 .sez-7-extend{
     width: 5%;
 }
-.sez-7-content i{
+.sez-7-content i, .sez-7-final-content i{
     display: inline-block;
     width: 5%;
     padding: 5px;
@@ -551,6 +556,76 @@ hr{
     position: relative;
     display: block;
 }
+
+/* footer */
+footer{
+    background-color: black;
+    color: white;
+}
+.footer-container{
+    width: 85%;
+    margin: 0 auto;
+}
+.footer-container .info-list{
+    padding-top: 50px;
+    width: calc(100% / 5 - 190px);
+    margin: 83px;
+    min-height: 220px;
+    padding-bottom: 100px;
+}
+.footer-container .info-list h5{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.footer-container .info-list ul li{
+    list-style-type: none;
+    font-weight: 300;
+    font-size: 14px;
+    padding: 3px 0;
+}
+.footer-container .lang{
+    color: #707070;
+    border-top: 1px solid#707070;
+    width: 75%;
+    font-size: 14px;
+    margin-left: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+footer .content-1{
+    width: 100%;
+}
+footer .content-1{
+    width: 100%;
+}
+.footer-container .info-list ul li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.content-2:hover{
+    cursor: pointer;
+}
+
+
+.btn a:active{
+    background-color: red;
+}
+.sez-2-btn a:active{
+    background-color: red;
+}
+.sez-4-link a:hover, .sez-4-link a:active{
+    color: red;
+}
+.sez-6-btn:active{
+    background-color: red;
+}
+.sez-6-btn a:hover{
+    background-color: #6a798659;
+}
+
+
+
+
 
 /* colori box con loghi */
 .green{
@@ -585,15 +660,13 @@ hr{
     position: relative;
     display: inline-block;
 }
-  
 .dropdown-content {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-}
-  
+} 
 .dropdown-content a {
     color: black;
     text-decoration: none;
@@ -602,13 +675,11 @@ hr{
     width: 300px;
     padding-left: 15px;
 
-}
-  
+} 
 .dropdown-content a:hover {
     background-color: #f1f1f1;
     border: 1px solid black;
-}
-  
+}  
 .dropdown:hover .dropdown-content {
     display: block;
 }
