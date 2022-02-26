@@ -53,10 +53,12 @@ nav{
     left: 0;
     background-color: white;
     z-index: 1;
+    border-bottom: 1px solid #6A7986;
 }
 nav ul li{
     list-style-type: none;
     display: inline-block;
+
 }
 .navsx{
     width: 50%;
@@ -498,3 +500,42 @@ hr{
 .yellow{
     background-color: #FFD830;
 }
+
+
+
+/* menu drop down */
+
+
+  
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+.dropdown-content a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    width: 300px;
+    padding-left: 15px;
+
+}
+  
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+    border: 1px solid black;
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
