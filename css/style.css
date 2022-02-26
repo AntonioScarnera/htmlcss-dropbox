@@ -447,8 +447,6 @@ hr{
 .sez-5-logo img{
     filter: invert(1);
 }
-
-
 .sez-5-center-box{
     width: calc(40% - 1px);
     height: 100%;
@@ -476,9 +474,85 @@ hr{
     font-weight: 600;
 }
 
+/* sezione 6 */
+.sez-6-title{
+    width: 50%;
+    font-size: 40px;
+    color: #61082B;
+    padding-top: 100px;
+    padding-left: 50px;
+    padding-bottom: 100px;
+}
+.sez-6-button{
+    padding-top: 110px;
+    padding-left: 50px;
+    padding-bottom: 100px;
+    padding-right: 70px;
+}
+.sez-6-btn{
+    padding: 10px 65px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+    background-color: #fff;
+}
+.sez-6-btn a{
+    text-decoration: none;
+    color: black;
+}
+.sez-6-btn:hover{
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.6);
+}
 
+/* sezione 7 */
+.sez-7-container{
+    padding: 100px 50px;
+}
+.sez-7-title{
+    padding-bottom: 50px;
+}
+.sez-7-content{
+    padding-top: 35px;
+    padding-bottom: 35px;
+    border-top: 1px solid #E0E0E1;
+    font-size: 20px;
+}
+.sez-7-final-content{
+    padding-top: 35px;
+    padding-bottom: 35px;
+    border-top: 1px solid #E0E0E1;
+    border-bottom: 1px solid #E0E0E1;
+}
+.sez-7-content-title{
+    width: 95%;
+}
+.sez-7-extend{
+    width: 5%;
+}
+.sez-7-content i{
+    display: inline-block;
+    width: 5%;
+    padding: 5px;
+    cursor: pointer;
+}
+.sez-7-content-title span{
+    width: 95%;
+    padding: 10px 0;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+}
+.sez-7-content p, .sez-7-final-content p{
+    display: none;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.sez-7-content-title:hover p{
+    position: relative;
+    display: block;
+}
 
-
+/* colori box con loghi */
 .green{
     background-color: #A2D39B;
 }
