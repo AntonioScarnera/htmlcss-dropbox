@@ -92,8 +92,6 @@ nav ul li.list-hover:hover{
 .navsx ul li a, .navdx ul li a{
     text-decoration: none;
     color: black;
-    padding-top: 35px;
-    padding-bottom: 35px;
     padding-right: 22px;
     line-height: 90px;
 }
@@ -431,7 +429,7 @@ hr{
 /* sezione 5 */
 .sez-5-container{
     width: 99vw;
-    height: 60vh;
+    height: 30vw;
     min-height: 60vh;
 }
 .sez-5-side-box{
@@ -454,7 +452,7 @@ hr{
     filter: invert(1);
 }
 .sez-5-center-box{
-    width: calc(40% - 1px);
+    width: calc(100% - 60vw);
     height: 100%;
     background-color: #F5F5F5;
     overflow-y: auto;
@@ -679,7 +677,7 @@ footer .content-1{
     text-align: left;
     width: 300px;
     padding-left: 15px;
-
+    font-size: 15px;
 } 
 .dropdown-content a:hover {
     background-color: #f1f1f1;
