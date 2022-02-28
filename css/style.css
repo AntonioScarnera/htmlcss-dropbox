@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     font-family: 'Open Sans';
     color: black;
@@ -154,10 +157,11 @@ nav ul li.list-hover:hover{
     font-size: 18px;
     margin-top: 20px;
 }
-.arrow i{
+.arrow a i{
     padding-top: 50px;
     font-size: 50px;
     font-weight: 800;
+    color: black;
 }
 
 /* CORPO */
